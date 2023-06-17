@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always (0) (Success)
  */
 int main(void)
 {
@@ -17,5 +16,5 @@ putchar(ch);
 
 putchar('\n');
 
-return 0;
+return (0);
 }

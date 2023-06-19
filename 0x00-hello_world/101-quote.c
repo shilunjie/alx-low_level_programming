@@ -1,17 +1,14 @@
-#include <unlistd.h>
+#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - Point of entry
- *
- * Description: print code using write function
-        write(int fd,const void *buf ,size_t count
- *
- * Rerurn: 1 (not success)
+ *  * main - prints exactly "and that piece of art is useful"
+ *   * - Dora Korpar, 2015-10-19",
+ *    * followed by a new line, to the standard error.
+e*     * Return: Always 0 (Success)
  */
-
 int main(void)
-{       
-        char quo[] = "and that piece of art is useful\" - Dora korpar, 2015-10-19\n";
-        write(1,quo,59);
-        return (1);
+{
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+return (1);
 }

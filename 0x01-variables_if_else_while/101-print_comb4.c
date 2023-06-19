@@ -7,26 +7,42 @@
  */
 
 int main(void)
-{
-int n, m;
 
-for (n = 48; n <= 56; n++)
-for (m = 49; m <= 57; m++)
 {
-if (m > n)
+int n, m, l;
+
+for (n = 48; n < 58; n++)
+{
+for (m = 49; m < 58; m++)
+{
+for (l = 50; l < 58; l++)
+{
+if (l > m && m > n)
+
 {
 putchar(n);
+
 putchar(m);
 
-if (n != 56 || m != 57)
+putchar(l);
+
+if (n != 55 || m != 56)
+
 {
 putchar(',');
+
 putchar(' ');
 }
+
 }
+
 }
+
+}
+
 }
 
 putchar('\n');
+
 return (0);
 }

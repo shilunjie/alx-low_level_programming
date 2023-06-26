@@ -14,5 +14,5 @@ while (*(s + p) != '\0')
 {
 p++;
 }
-return p;
+return (p);
 }

@@ -1,1 +1,1 @@
-static_libraries
+Project fot static_libraries
